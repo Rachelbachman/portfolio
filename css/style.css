@@ -133,6 +133,13 @@ nav{
     
 }
 
+#classforEpcot img{
+    margin-right: 50px;
+    display: block;
+    height: auto
+    
+}
+
 div.grid-container{
     display: grid;
     grid-template-columns: auto auto;
@@ -149,15 +156,8 @@ div.grid-container{
     border-bottom: 1px solid #add8e6;
     border-right: 1px solid #add8e6;
     
-}
-
-#classforEpcot img{
-    margin-right: 50px;
-    display: block;
-    height: auto;
     
 }
-
 
 
 
