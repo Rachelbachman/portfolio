@@ -5,7 +5,6 @@
     color: #113ccf;
     font-size:100px;
     text-align: center;
-    
 }
 
 div.Me.Through.the.Years.at.Walt.Disney.World{
@@ -14,9 +13,13 @@ div.Me.Through.the.Years.at.Walt.Disney.World{
     justify-content: center;
 }
 
+:visited{
+    color: #113ccf;
+    text-decoration: underline;
+}
 
 .current{
-    color:#fff;
+    color:#add8e6;
     background-color: #113ccf;
 }
 
@@ -176,4 +179,3 @@ footer{
     bottom:0;
     left:0;
 }
-
