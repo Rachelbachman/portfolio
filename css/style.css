@@ -10,7 +10,6 @@
 div.Me.Through.the.Years.at.Walt.Disney.World{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 :visited{
