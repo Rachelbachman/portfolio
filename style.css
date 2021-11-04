@@ -1,0 +1,182 @@
+ h1{
+    font-family: 'Mouse Memoirs', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #113ccf;
+    font-size:100px;
+    text-align: center;
+}
+
+div.Me.Through.the.Years.at.Walt.Disney.World{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+:visited{
+    color: #113ccf;
+    text-decoration: underline;
+}
+
+.current{
+    color:#add8e6;
+    background-color: #113ccf;
+}
+
+#ClassforIndex img, object, embed{
+    width: 500px;
+    height: 500px;
+}
+
+
+#ClassforIndex h2{
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mouse Memoirs', sans-serif;
+    text-align: center;
+}
+
+
+
+#classforMagicKingdom p{
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: #000;
+    text-align: center;
+    
+}
+
+#classforMagicKingdom p2{
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: #000;
+    text-align: center;
+    
+}
+
+#classforMagicKingdom img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: block;
+
+}
+
+
+
+#classforHollywoodStudios p{
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: #000;
+    text-align: center;
+
+    
+}
+
+
+#classforHollywoodStudios p2{
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: #000;
+    text-align: center;
+    
+}
+
+#classforHollywoodStudios img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    
+}
+
+
+
+#classforAnimalKingdom p{
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: #000;
+    text-align: center;
+    
+}
+
+#classforAnimalKingdom p2{
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: #000;
+    text-align: center;
+    
+}
+
+
+
+#classforAnimalKingdom img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    
+}
+
+
+
+#classforEpcot p{
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: #fff;
+    text-align:center;
+    margin: 70px;
+}
+
+
+
+#classforEpcot h2{
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: #000;
+    text-align: center;
+    
+}
+
+#classforEpcot img{
+    margin-right: 50px;
+    display: block;
+    min-height: 200px;
+    width: 200px;
+    
+}
+
+div.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #113ccf;
+    
+    
+    
+
+}
+
+.grid-item{
+    border-top: 1px solid #add8e6;
+    border-left: 1px solid #add8e6;
+    border-bottom: 1px solid #add8e6;
+    border-right: 1px solid #add8e6;
+    width: 200px;
+    
+    
+}
+
+
+
+
+
+
+footer{
+    border: 2px solid grey;
+    font-family: 'Mouse Memoirs', sans-serif;
+	margin: 10px 0;
+    color: #add8e6;
+    background-color: black;
+    text-align: center;
+    bottom:0;
+    left:0;
+}
+
