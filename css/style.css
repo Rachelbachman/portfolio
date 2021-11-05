@@ -20,7 +20,7 @@ div.Me.Through.the.Years.at.Walt.Disney.World{
 .current{
     color:#add8e6;
     background-color: #113ccf;
-    text-decoration: bold;
+    font-weight: bold;
 }
 
 #ClassforIndex img, object, embed{
