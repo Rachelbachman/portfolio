@@ -10,6 +10,10 @@
 div.Me.Through.the.Years.at.Walt.Disney.World{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
 }
 
 :visited{
@@ -20,8 +24,8 @@ div.Me.Through.the.Years.at.Walt.Disney.World{
 .current{
     color:#add8e6;
     background-color: #113ccf;
-    font-weight: bold;
-    font-style: italic;
+    text-transform: uppercase;
+    padding: .5px;
 }
 
 #ClassforIndex img, object, embed{
@@ -41,23 +45,26 @@ nav{
     flex-direction: column;
     font-family: 'Mouse Memoirs', sans-serif;
     text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
 }
 
 
 
 #classforMagicKingdom p{
-    font-family: 'Mouse Memoirs', sans-serif;
+   
     color: #000;
     text-align: center;
-    
+    font-size: 20px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    font-family: 'Montagu Slab', serif;
+
 }
 
-#classforMagicKingdom p2{
-    font-family: 'Mouse Memoirs', sans-serif;
-    color: #000;
-    text-align: center;
-    
-}
+
 
 #classforMagicKingdom img{
     width: 300px;
@@ -70,44 +77,63 @@ nav{
 
 
 #classforHollywoodStudios p{
-    font-family: 'Mouse Memoirs', sans-serif;
+   
     color: #000;
     text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    font-family: 'Montagu Slab', serif;
 
     
 }
 
 
-#classforHollywoodStudios p2{
-    font-family: 'Mouse Memoirs', sans-serif;
-    color: #000;
-    text-align: center;
-    
-}
 
 #classforHollywoodStudios img{
     width: 300px;
     height: 300px;
     margin: auto;
     display: block;
+
     
 }
 
 
 
 #classforAnimalKingdom p{
-    font-family: 'Mouse Memoirs', sans-serif;
+    
     color: #000;
     text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    font-family: 'Montagu Slab', serif;
     
 }
 
-#classforAnimalKingdom p2{
-    font-family: 'Mouse Memoirs', sans-serif;
-    color: #000;
-    text-align: center;
-    
-}
+
+
+a.skip{
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+  }
+  
+  a.skip:focus{
+    top:20px;
+    color: black;
+    text-decoration-style: solid;
+  }
 
 
 
@@ -122,19 +148,24 @@ nav{
 
 
 #classforEpcot p{
-    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Montagu Slab', serif;
     color: #fff;
     text-align:center;
     margin: 70px;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
 }
 
 
 
 #classforEpcot h2{
-    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Montagu Slab', serif;
     color: #000;
     text-align: center;
-    
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #classforEpcot img{
@@ -179,4 +210,123 @@ footer{
     text-align: center;
     bottom:0;
     left:0;
+    padding: 20px;
 }
+
+
+@media screen and (min-width: 760px){
+    div.Me.Through.the.Years.at.Walt.Disney.World{
+        justify-content: center;
+    }
+
+    #ClassforIndex img, object, embed{
+        width: 300px;
+        height: 300px;
+    }
+    
+
+    div.Me.Through.the.Years.at.Walt.Disney.World{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    #classforMagicKingdom img{
+        width: 500px;
+        height: 500px;
+    
+    }
+
+    #classforMagicKingdom p{
+   
+    
+        margin: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+     
+    
+    }
+
+    #classforHollywoodStudios p{
+   
+        
+        margin: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    
+        
+    }
+    
+    
+    
+    #classforHollywoodStudios img{
+        width: 500px;
+        height: 500px;
+    
+        
+    }
+    
+
+    #classforAnimalKingdom img{
+        width: 500px;
+        height: 500px;
+
+        
+    }
+
+    #classforAnimalKingdom p{
+    
+      
+        margin: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    
+        
+    }
+    
+    #classforEpcot img{
+        width: 800px;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin: 10px;
+        
+        
+    }
+
+    div.grid-item{
+        min-width: 800px;
+        background-color: #113ccf;
+        padding: 10px;
+       
+
+    }
+
+.grid-item{
+    
+    background-color: #113ccf;
+
+    
+    
+    
+}
+
+    div.grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        background-color: #fff;
+        align-items: center;
+        justify-content: center;
+      
+       
+     
+    
+    }
+
+    #classforEpcot h2{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+   
