@@ -16,6 +16,11 @@ div.Me.Through.the.Years.at.Walt.Disney.World{
     justify-content: center;
 }
 
+#ClassforIndex img, object, embed{
+    width: 500px;
+    height: 500px;
+}
+
 :visited{
     color: #113ccf;
     text-decoration: underline;
@@ -28,10 +33,7 @@ div.Me.Through.the.Years.at.Walt.Disney.World{
     padding: .5px;
 }
 
-#ClassforIndex img, object, embed{
-    width: 500px;
-    height: 500px;
-}
+
 
 
 #ClassforIndex h2{
@@ -217,13 +219,12 @@ footer{
 
 
 @media screen and (min-width: 768px){
-    div.Me.Through.the.Years.at.Walt.Disney.World{
-        justify-content: center;
-    }
 
-    #ClassforIndex img, object, embed{
+
+    #ClassforIndex img, object, embed {
         width: 300px;
         height: 300px;
+
     }
     
 
@@ -238,7 +239,8 @@ footer{
 
     div.Me.Through.the.Years.at.Walt.Disney.World{
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
+        
         
     }
 
@@ -339,4 +341,17 @@ footer{
         padding-bottom: 25px;
     }
     
+}
+
+
+@media screen and (min-width: 939px){
+
+
+
+    #ClassforIndex img, object, embed {
+        width: 400px;
+        height: 400px;
+
+    }
+  
 }
