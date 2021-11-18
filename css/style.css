@@ -5,6 +5,7 @@
     color: #113ccf;
     font-size:100px;
     text-align: center;
+    padding-top: 40px;
 }
 
 div.Me.Through.the.Years.at.Walt.Disney.World{
@@ -121,7 +122,7 @@ nav{
 
 
 a.skip{
-    background: white;
+    background: rgb(255, 255, 255);
     left: 0;
     padding: 6px;
     position: absolute;
@@ -162,10 +163,10 @@ a.skip{
 
 
 #classforEpcot h2{
-    font-family: 'Montagu Slab', serif;
+    font-family: 'Mouse Memoirs', serif;
     color: #000;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -204,16 +205,17 @@ div.grid-container{
 
 
 footer{
-    border: 2px solid grey;
+    border: 2px solid rgb(131, 130, 130);
     font-family: 'Mouse Memoirs', sans-serif;
-	margin: 10px;
+	margin: 10px 0;
     color: #add8e6;
-    background-color: black;
+    background-color: rgb(2, 2, 2);
     text-align: center;
     bottom:0;
     left:0;
     padding: 20px;
-    margin-bottom: 0;
+    width: 100%;
+    font-size: 30px
     
 }
 
