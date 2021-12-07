@@ -2,10 +2,27 @@
     font-family: 'Mouse Memoirs', sans-serif;
     display: flex;
     justify-content: center;
-    color: #113ccf;
+    color: #c9ccd5;
     font-size:100px;
     text-align: center;
     padding-top: 40px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-image: url('../imgs/stars.jpg')
+}
+
+.parallax {
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h2{
+    padding-bottom: 50px;
 }
 
 div.Me.Through.the.Years.at.Walt.Disney.World{
@@ -21,6 +38,8 @@ div.Me.Through.the.Years.at.Walt.Disney.World{
     width: 500px;
     height: 500px;
 }
+
+
 
 :visited{
     color: #113ccf;
@@ -219,6 +238,76 @@ footer{
     
 }
 
+@keyframes title_color{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left:0%;
+        width: 100%;
+    }
+}
+
+h1{
+    animation-name: title_color;
+    animation-duration: 4s;
+    animation-iteration-count:initial;
+}
+
+b{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+input{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+textarea#msg{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+
+button{
+    font-family: 'Mouse Memoirs', sans-serif;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+
+
+
+#classforcontactform{
+    background-color: #add8e6;
+}
+
+
+@media screen and (prefers-reduced-motion: reduce){
+    h1{
+        animation-name:none;
+    }
+}
 
 @media screen and (min-width: 768px){
 
@@ -226,6 +315,8 @@ footer{
     #ClassforIndex img, object, embed {
         width: 300px;
         height: 300px;
+        padding-bottom: 10px;
+
 
     }
     
@@ -351,9 +442,77 @@ footer{
 
 
     #ClassforIndex img, object, embed {
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
+        
 
     }
   
 }
+
+@media screen and (min-width: 1440px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+   
+    #ClassforIndex img, object, embed {
+        width: 300px;
+        height: 300px;
+        padding-bottom: 25px;
+
+    }
+
+    #ClassforIndex h2{
+        font-size: 50px;
+    }
+    
+
+    #classforAnimalKingdom img{
+        width: 600px;
+        height: 600px;
+     
+
+        
+    }
+    #classforMagicKingdom img{
+        width: 600px;
+        height: 600px;
+
+        
+    }
+    #classforHollywoodStudios img{
+        width: 600px;
+        height: 600px;
+
+        
+    }
+
+    #classforEpcot img{
+        min-width: 850px;
+        max-width: 1600px;
+        margin-left: 20px;
+        margin-right: 15px;
+        padding: 20px;
+    
+        
+        
+    }
+
+    div.grid-item{
+        width: 100%;
+        background-color: #113ccf;
+        padding: 10px;
+    
+    
+       
+    
+
+    }
+
+    #classforEpcot p{
+        font-size: 40px;
+    }
+
+
+  }
+
