@@ -2,19 +2,30 @@
     font-family: 'Mouse Memoirs', sans-serif;
     display: flex;
     justify-content: center;
-    color: #c9ccd5;
+    color: #f1f1f1;
     font-size:100px;
     text-align: center;
     padding-top: 40px;
     margin-bottom: 50px;
     margin-top: 50px;
-    background-image: url('../imgs/stars.jpg')
+    background-image: url('../imgs/stars.jpg');
+    background-color: #113ccf;
+}
+
+.parralax{
+    padding-left: 0px;
+    padding-right:0px;
+    padding-bottom: 30px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    height:380px;
+    background-image: URL('../imgs/contactform.jpg');
+    background-repeat: no-repeat
 }
 
 
-h2{
-    padding-bottom: 50px;
-}
+
 
 div.Me.Through.the.Years.at.Walt.Disney.World{
     display: flex;
@@ -28,6 +39,24 @@ div.Me.Through.the.Years.at.Walt.Disney.World{
 #ClassforIndex img, object, embed{
     width: 500px;
     height: 500px;
+}
+
+#ClassforIndex{
+    background-color: #add8e6;
+}
+
+
+#classforMagicKingdom{
+    background-color: #add8e6;
+}
+
+#classforAnimalKingdom{
+    background-color: #add8e6;
+}
+
+
+#classforHollywoodStudios{
+    background-color: #add8e6;
 }
 
 
@@ -53,6 +82,8 @@ div.Me.Through.the.Years.at.Walt.Disney.World{
     text-align: center;
     justify-content: center;
     margin:auto;
+    padding-bottom: 1px;
+
 }
 
 .flip-card-inner {
@@ -62,6 +93,8 @@ div.Me.Through.the.Years.at.Walt.Disney.World{
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+
+
   }
 
   .flip-card:hover .flip-card-inner {
@@ -78,15 +111,16 @@ div.Me.Through.the.Years.at.Walt.Disney.World{
   }
 
   .flip-card-front {
-    background-color: #bbb;
+    background-color: #add8e6;
     color: black;
   }
 
 
   .flip-card-back {
-    color: white;
+    color: #f1f1f1;
     transform: rotateY(180deg);
     background-color: #113ccf;
+    padding-top: 30px;
   }
 
 
@@ -94,13 +128,15 @@ div.Me.Through.the.Years.at.Walt.Disney.World{
 
 #ClassforIndex h2{
     font-family: 'Mouse Memoirs', sans-serif;
-    color: #000;
+    color: #113ccf;
     text-align: center;
+    padding-bottom: 50px;
+    font-size:50px;
 }
 
 #classforgallery h2{
     font-family: 'Mouse Memoirs', sans-serif;
-    color: #000;
+    color: #113ccf;
     text-align: center;
     font-size: 100px;
 }
@@ -248,7 +284,7 @@ a.skip{
 
 #classforEpcot h2{
     font-family: 'Mouse Memoirs', serif;
-    color: #000;
+    color: #113ccf;
     text-align: center;
     font-size: 40px;
     padding-left: 20px;
@@ -274,16 +310,15 @@ div.grid-container{
 }
 
 .grid-item{
-    border-top: 1px solid #add8e6;
-    border-left: 1px solid #add8e6;
-    border-bottom: 1px solid #add8e6;
-    border-right: 1px solid #add8e6;
+    border-top: 10px solid #add8e6;
+    border-left: 10px solid #add8e6;
+    border-bottom: 10px solid #add8e6;
+    border-right: 10px solid #add8e6;
     width: 200px;
     
     
+    
 }
-
-
 
 
 
@@ -314,6 +349,8 @@ footer{
     }
 }
 
+
+
 h1{
     animation-name: title_color;
     animation-duration: 4s;
@@ -329,7 +366,7 @@ b{
 }
 
 input{
-    width:100%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -376,11 +413,19 @@ button{
 
 @media screen and (min-width: 768px){
 
+    .flip-card{
+        width: 500px;
+    height: 300px;
+    
+    }
+
+
+
 
     #ClassforIndex img, object, embed {
         width: 300px;
         height: 300px;
-        padding-bottom: 10px;
+
 
 
     }
@@ -581,3 +626,9 @@ button{
 
   }
 
+
+  @media only screen and (max-device-width: 1366px){
+      .parallax{
+          background-attachment: scroll;
+      }
+  }
