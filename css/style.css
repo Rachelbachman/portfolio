@@ -15,7 +15,8 @@
 
 #classforgallery img{
     width: 300px;
-    height: 300px
+    height: 300px;
+    overflow: auto;
 }
 
 
@@ -58,8 +59,8 @@ div.Me.Through.the.Years.at.Walt.Disney.World{
 }
 
 #ClassforIndex img, object, embed{
-    width: 500px;
-    height: 500px;
+    width: auto;
+    height: auto;
     overflow: auto;
 }
 
@@ -183,8 +184,8 @@ nav{
 
 
 #classforMagicKingdom img{
-    width: 300px;
-    height: 300px;
+    width: auto;
+    height: auto;
     margin: auto;
     display: block;
     overflow: auto;
@@ -210,8 +211,8 @@ nav{
 
 
 #classforHollywoodStudios img{
-    width: 300px;
-    height: 300px;
+    width: auto;
+    height: auto;
     margin: auto;
     display: block;
     overflow: auto;
@@ -256,8 +257,8 @@ a.skip{
 
 
 #classforAnimalKingdom img{
-    width: 300px;
-    height: 300px;
+    width: auto;
+    height: auto;
     margin: auto;
     display: block;
     overflow: auto;
@@ -415,6 +416,7 @@ button{
     #ClassforIndex img, object, embed {
         width: 300px;
         height: 300px;
+        
 
 
 
